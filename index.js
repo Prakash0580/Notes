@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 
-const router = require('./routers');
+const router = require('./src/models');
 app.use('/notes', router);
 
 
